@@ -1,0 +1,178 @@
+{
+    "tapes":
+    [
+        {
+            "name": "an_idea",
+            "path": "../tapes\\file1\\an_idea.mp4"
+        },
+        {
+            "name": "a_team",
+            "path": "../tapes\\file2\\a_team.mp4"
+        },
+        {
+            "name": "back_end",
+            "path": "../tapes\\file2\\back_end.mp4"
+        },
+        {
+            "name": "mistake",
+            "path": "../tapes\\file2\\mistake.mp4"
+        },
+        {
+            "name": "the_harvest",
+            "path": "../tapes\\file2\\the_harvest.mp4"
+        },
+        {
+            "name": "decision",
+            "path": "../tapes\\file4\\decision.mp4"
+        },
+        {
+            "name": "brain",
+            "path": "../tapes\\finale\\brain.jpg"
+        },
+        {
+            "name": "eyes",
+            "path": "../tapes\\finale\\eyes.gif"
+        },
+        {
+            "name": "heart",
+            "path": "../tapes\\finale\\heart.gif"
+        }
+    ],
+    "sounds":
+    [
+        {
+            "name": "paper",
+            "path": "../resources/sound/paper.wav",
+            "size": 1,
+            "volume": 0.8
+        },
+        {
+            "name": "select",
+            "path": "../resources/sound/select.wav",
+            "size": 1,
+            "volume": 0.8
+        },
+        {
+            "name": "hiss",
+            "path": "../resources/sound/hiss.mp3",
+            "size": 1,
+            "volume": 0.8,
+            "loop": true
+        },
+        {
+            "name": "turnOn",
+            "path": "../resources/sound/turnOn.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "turnOff",
+            "path": "../resources/sound/turnOff.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "glitch1",
+            "path": "../resources/sound/glitches/glitch1.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "glitch2",
+            "path": "../resources/sound/glitches/glitch2.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "glitch3",
+            "path": "../resources/sound/glitches/glitch3.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "glitch4",
+            "path": "../resources/sound/glitches/glitch4.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "glitch5",
+            "path": "../resources/sound/glitches/glitch5.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "glitch6",
+            "path": "../resources/sound/glitches/glitch6.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "glitchLong",
+            "path": "../resources/sound/glitches/glitchLong.mp3",
+            "size": 1,
+            "volume": 1,
+            "loop": true
+        },
+        {
+            "name": "baby",
+            "path": "../resources/sound/baby.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "drone1",
+            "path": "../resources/sound/drone.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "drone2",
+            "path": "../resources/sound/drone2.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "glass1",
+            "path": "../resources/sound/glass1.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "glass2",
+            "path": "../resources/sound/glass2.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "punch",
+            "path": "../resources/sound/punch.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "scream",
+            "path": "../resources/sound/scream.mp3",
+            "size": 1,
+            "volume": 1
+        },
+        {
+            "name": "beep",
+            "path": "../resources/sound/beep.mp3",
+            "size": 1,
+            "volume": 0.5
+        },
+        {
+            "name": "error",
+            "path": "../resources/sound/error.mp3",
+            "size": 1,
+            "volume": 1
+        }
+    ]
+}

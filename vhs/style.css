@@ -1,0 +1,105 @@
+body
+{
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+#blue
+{
+    background-color: #1e3aa4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+@font-face
+{
+    font-family: 'Vhs';
+    src: url(../resources/Vhs.ttf) format('truetype');
+}
+p
+{
+    text-decoration: none;
+    font-size: 48px;
+    font-family: 'Vhs';
+    color: white;
+    text-shadow: 4px 4px black;
+}
+#tv_div
+{
+    text-align: center;
+}
+#tv_div #tv
+{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-height: 60vh;
+    min-width: 50%;
+    max-width: 85%;
+}
+
+#instructions_img
+{
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+    z-index: 1;
+}
+
+@keyframes zoomIn
+{
+    0% { scale: 100%; }
+    100% { scale: 700%; }
+}
+@keyframes zoomInLess
+{
+    0% { scale: 100%; }
+    100% { scale: 200%; }
+}
+@keyframes fadeIn
+{
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes fadeOut
+{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes zoomOut
+{
+    0% {scale: 700%; }
+    100% {scale: 100%; }
+}
+
+@keyframes takeOut
+{
+    from
+    {
+        bottom: -450px;
+        right: -10%;
+    }
+    to
+    {
+        bottom: 0px;
+        right: 10%;
+    }
+}
+
+@keyframes putAway
+{
+    from
+    {
+        bottom: 0px;
+        right: 10%;
+    }
+    to
+    {
+        bottom: -450px;
+        right: -5%;
+    }
+}

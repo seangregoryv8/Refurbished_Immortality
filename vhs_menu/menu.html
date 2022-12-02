@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="./stylesheet/overlay.css">
+</head>
+<body>
+    <script type="module" src="../src/vhsEffect.js"></script>
+    <script type="module" src="../src/main.js"></script>
+    <div id="topbar"></div>
+    <div id="bottombar"></div>
+
+    <div id="all">
+        <p id="title">M E N U</p>
+
+        <ul id="tapes">
+        </ul>
+
+        <p id="error" style="visibility: hidden;">ERROR</p>
+
+        <ul id="tapeIndex">
+        </ul>
+        <img id="face" src="../resources/images/face.png" draggable="false" style="visibility: hidden;">
+        <p id="dialogue" style="z-index: 1;"></p>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+
+    <script>
+        var allA = document.getElementsByTagName("a");
+        for (let i = 0; i < allA.length; i++)
+        {
+            allA[i].addEventListener('click', (event) => 
+            {
+                event.preventDefault();
+            }, false)
+        }
+    </script>
+</body>
+</html>

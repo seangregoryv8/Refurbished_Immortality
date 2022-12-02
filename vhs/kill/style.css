@@ -1,0 +1,80 @@
+body
+{
+    background-color: black;
+    height: 100%;
+    overflow: hidden;
+}
+@font-face
+{
+    font-family: 'Vhs';
+    src: url(../../resources/Vhs.ttf) format('truetype');
+}
+p
+{
+    text-decoration: none;
+    font-size: 48px;
+    font-family: 'Vhs';
+    color: black;
+}
+#tv_div
+{
+    text-align: center;
+}
+#tv_div #tv
+{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    max-height: 60vh;
+    min-width: 50%;
+    max-width: 85%;
+    scale: 175%;
+}
+
+#punchRight
+{
+    position: absolute;
+    bottom: -25%;
+    right: -60%;
+    scale: 100%;
+    z-index: 1;
+}
+
+#punchLeft
+{
+    position: absolute;
+    bottom: -25%;
+    left: -60%;
+    scale: 100%;
+    z-index: 1;
+    transform: scaleX(-1);
+}
+
+#face
+{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+#bottombar
+{
+    background-color: black;
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#topbar
+{
+    background-color: black;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
